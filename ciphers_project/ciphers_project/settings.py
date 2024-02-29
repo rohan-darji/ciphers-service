@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'https://ciphers-service-rohan-darji.onrender.com',
     'localhost',
+    'https://rohan-darji.github.io/'
 ]
 
 

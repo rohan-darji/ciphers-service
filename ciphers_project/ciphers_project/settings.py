@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-2=-l@50pz##l5$d5=rh0pkx4zc0=1ywhgy_m%jc*h&x^91b-my
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://ciphers-service-rohan-darji.onrender.com', 'localhost']
+ALLOWED_HOSTS = [
+    'https://ciphers-service-rohan-darji.onrender.com',
+    'localhost',
+]
 
 
 # Application definition
@@ -127,6 +130,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "https://rohan-darji.github.io/"
+    "https://rohan-darji.github.io"
     "https://localhost:3000"
 ]
